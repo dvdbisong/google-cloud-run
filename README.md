@@ -1,6 +1,4 @@
-[![HitCount](http://hits.dwyl.io/dvdbisong/kubeflow-for-poets.svg)](http://hits.dwyl.io/dvdbisong/kubeflow-for-poets)
-
-# Kubeflow for Poets: A Guide to Containerization of the Machine Learning Production Pipeline
+# Cloud Run: TensorFlow Data Validation with Pub/Sub Triggers
 
 <p align="left">
     <img src="img/docker.png" align="middle" alt="Docker." height=20% width=20%/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -10,6 +8,10 @@
 </p>
 
 <br>
+
+Cloud Run
+TensorFlow DV
+PubSub
 
 This repository provides a systematic approach to productionalizing machine learning pipelines with Kubeflow on Kubernetes. Building machine learning models is just one piece of a more extensive system of tasks and processes that come together to deliver a Machine Learning product. Kubeflow makes it possible to leverage the microservices paradigm of containerization to separate modular components of an application orchestrated on Kubernetes. While Kubernetes is platform agnostic, this tutorial will focus on deploying a Machine Learning product on Google Cloud Platform leveraging Google Cloud BigQuery, Google Cloud Dataflow and Google Cloud Machine Learning Engine orchestrated on Google Kubernetes Engine.
 
