@@ -21,4 +21,4 @@ In the steps below, replace the name `ekabasandbox` with your GCP Project ID.
     <img src="img/app-cloud-run.png" align="middle" alt="App running on Cloud Run."/>
 </p>
 
-## 
+**Blog post for this project: <a href="http://ekababisong.org">http://ekababisong.org</a>**
