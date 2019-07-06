@@ -1,4 +1,4 @@
-# Cloud Run: Dataset Summaries with Pub/Sub Triggers
+# Cloud Run: Dataset Summaries via HTTP Request
 
 <p align="left">
     <img src="img/cloud-run.png" align="middle" alt="Cloud Run."/>
@@ -7,7 +7,7 @@
 <br>
 This repository provides code for utilizing Cloud Run to run a stateless container that uses Pandas profiling to display the summary statistics from a structured CSV dataset. The CSV file is passed to the container via a HTTP request from the parameter `data`.
 
-# Get Started
+## Get Started
 In the steps below, replace the name `ekabasandbox` with your GCP Project ID.
 
 1. Open Google Cloud Shell.
@@ -20,3 +20,5 @@ In the steps below, replace the name `ekabasandbox` with your GCP Project ID.
 <p align="left">
     <img src="img/app-cloud-run.png" align="middle" alt="App running on Cloud Run."/>
 </p>
+
+## 
