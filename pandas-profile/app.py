@@ -7,6 +7,10 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 @app.route('/')
+def hello_world():
+    return render_template('index.html')
+
+@app.route('/profile')
 def profile():
     # importing the data
     df = pd.read_csv(request.args.get('data'))
