@@ -15,7 +15,7 @@ def profile():
     # importing the data
     df = pd.read_csv(request.args.get('data'))
     profile = pandas_profiling.ProfileReport(df)
-    profile.to_file(output_file="templates/output.html")
+    profile.to_file(output_file='templates/output.html')
     return render_template('output.html')
 
 if __name__ == "__main__":
