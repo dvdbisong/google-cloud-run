@@ -16,7 +16,7 @@ In the steps below, replace the name `ekabasandbox` with your GCP Project ID.
 3. Navigate to the code folder folder: `cd pandas-profile`.
 4. Build the container using Cloud Build: `gcloud builds submit --tag gcr.io/ekabasandbox/pandas_profile`
 5. Deploy to Cloud Run: `gcloud beta run deploy --image gcr.io/ekabasandbox/pandas_profile --platform managed --memory 1Gi`
-6. Pass a hosted CSV file to the application deployed on Cloud Run via the link. For example: `https://helloworld-4fa5lgaxpq-uc.a.run.app/profile?data=https://storage.googleapis.com/ekaba-test-data/transformed-crypto-bitcoin-00-of-02.csv#variables`
+6. Pass a hosted CSV file to the application deployed on Cloud Run via the link. For example: `https://helloworld-4fa5lgaxpq-uc.a.run.app/profile?data=https://storage.googleapis.com/ekaba-test-data/transformed-crypto-bitcoin-00-of-02.csv`
 
 <p align="left">
     <img src="img/app-cloud-run.png" align="middle" alt="App running on Cloud Run."/>
